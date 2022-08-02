@@ -42,7 +42,7 @@ for j in range(len(v8)):
     v8[j] = chr(ord(v8[j]) ^ 5)
 print(''.join(v8))
 ```
-
+`Flag : flag{D3bUgM3t0g3tF1aG}`
 
 > Another solution
 > - set break point -> seeing at stack of register -> we will get flag too :D
