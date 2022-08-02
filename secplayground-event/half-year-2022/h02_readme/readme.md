@@ -11,7 +11,7 @@ so it is the fake flag.
 I decided to debugging file with IDA Pro.
 continuing disassembly at main to see source
 
-![](pic/1.JPG)
+![](pic/1.jpg)
 
 analyze code and convert it to python for solving 
 
