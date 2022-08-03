@@ -1,10 +1,10 @@
 # README.exe (Tower 2)
 ## Level
-`HARD`
+`HARD` 
 ## Flag Format
 flag{xxxxx}
 ## Solution
-After downloading we will README.exe file
+After downloading we will get README.exe file
 and if you run this file it will show a messagebox
 so it is the fake flag.
 
