@@ -1,10 +1,10 @@
 # README.exe (Tower 2)
 ## Level
-`HARD`
+`HARD` 
 ## Flag Format
 flag{xxxxx}
 ## Solution
-After downloading we will README.exe file
+After downloading we will get README.exe file
 and if you run this file it will show a messagebox
 so it is the fake flag.
 
@@ -42,7 +42,7 @@ for j in range(len(v8)):
     v8[j] = chr(ord(v8[j]) ^ 5)
 print(''.join(v8))
 ```
-
+`Flag : flag{D3bUgM3t0g3tF1aG}`
 
 > Another solution
 > - set break point -> seeing at stack of register -> we will get flag too :D
