@@ -5,7 +5,7 @@ flag{xxxxx}
 Challenge : https://notintuitive.ctf.cert.unlp.edu.ar/
 
 I entered this website and found a white page.
-So I through this challenge should not be difficult. (guess from my experience)
+So I through this challenge should not be difficult. (guess from experience)
 
 I decided to change requests method in curl.
 When I used OPTIONS method,Cookie will appear session and allowed header.
