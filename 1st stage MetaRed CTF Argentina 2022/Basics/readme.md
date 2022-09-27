@@ -12,4 +12,4 @@ GOTCHA.
 
 Finaly, I got the flag.
 
-![](pic/1.jpg)
+![](pic/1.JPG)
