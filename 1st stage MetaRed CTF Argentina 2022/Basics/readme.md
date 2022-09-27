@@ -10,6 +10,6 @@ So I used devtools to see the respone header.
 
 GOTCHA.
 
-Finaly, I got the flag.
+Finally, I got the flag.
 
 ![](pic/1.JPG)

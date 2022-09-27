@@ -19,7 +19,7 @@ Payload
 ```
 
 GOTCHA.
-Finaly, I got the flag.
+Finally, I got the flag.
 
 ![](pic/1.JPG)
 

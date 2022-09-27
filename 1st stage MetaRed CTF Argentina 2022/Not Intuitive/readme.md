@@ -12,6 +12,6 @@ When I used OPTIONS method,Cookie will appear session and allowed header.
 So I tried request XXXXX to be method with cookie that recieved.
 
 GOTCHA.
-Finaly, I got the flag.
+Finally, I got the flag.
 
 ![](pic/1.JPG)
