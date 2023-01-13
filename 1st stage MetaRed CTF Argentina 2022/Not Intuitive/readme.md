@@ -14,4 +14,4 @@ So I tried request XXXXX to be method with cookie that recieved.
 GOTCHA!.
 Finally, I got the flag.
 
-![](pic/1.JPG)
+![](pic/1.jpg)

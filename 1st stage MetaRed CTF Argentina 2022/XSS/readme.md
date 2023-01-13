@@ -21,5 +21,5 @@ Payload
 GOTCHA.
 Finally, I got the flag.
 
-![](pic/1.JPG)
+![](pic/1.jpg)
 
