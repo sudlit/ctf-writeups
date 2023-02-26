@@ -53,38 +53,3 @@ for r in range(100, q):
         print(flag)
         break
         
-# plaintext += bytes([1 << j])
-
-
-'''
-def greedy(ll, target):
-    out = []
-    for i in range(len(ll) - 1, -1, -1):
-        elem = ll[i]
-        if elem <= target:
-            target -= elem
-            out.append(i)
-    return out
-
-'''
-'''for r in range(100, q):
-    if egcd(r, q)[0] != 1:
-        continue
-    s = modinv(r, q)
-    flag = ""
-    for cipher_item in c:
-        cprime = cipher_item*s % q
-        b = ''
-        for w_i in reversed(w):
-            if cprime - w_i >= 0:
-                b += '1'
-                cprime = cprime - w_i
-            else:
-                b += '0'
-        b = b[::-1]
-        flag += b
-        if b'ACSC' in (long_to_bytes(int(flag, 2))):
-            print((long_to_bytes(int(flag, 2))))
-            break
-'''
-#https://jsur.in/posts/2020-04-06-auctf-2020-writeups
