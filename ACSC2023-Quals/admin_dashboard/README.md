@@ -64,5 +64,5 @@ Log out and back in with your new account to receive the flag. 
 #### Hope you enjoy this 
 
 #### I couldn't do this in time. =w=*
-![](https://media.tenor.com/TLH4vtyDbeIAAAAd/sad-cat-meme.gif)
+![](https://i0.wp.com/media2.giphy.com/media/JEVqknUonZJWU/giphy.gif?ssl=1)
 
