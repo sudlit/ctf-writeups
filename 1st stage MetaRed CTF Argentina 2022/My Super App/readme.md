@@ -11,4 +11,4 @@ I tried to find "flag{" in all files that be rendered at Sources in DevTools.
 GOTCHA.
 Finally, I got the flag.
 
-![](pic/1.jpg)
+![](pic/1.JPG)
