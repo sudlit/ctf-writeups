@@ -64,5 +64,5 @@ Log out and back in with your new account to receive the flag. 
 #### Hope you enjoy this 
 
 #### I couldn't do this in time. =w=*
+![](https://media.tenor.com/QR7-VgKbcdYAAAAC/i-have-no-idea-dumbfounded.gif)
 
-![](https://i.gifer.com/jj.gif)
