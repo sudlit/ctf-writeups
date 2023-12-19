@@ -23,7 +23,7 @@
 From the challenge name it's easy to guess that this challenge doing about path traversal
 and I found vulnerability at `?page=` parameter which is LFI vuln so i tried to input too many file name. And I went back and read the description again which have mentioned to vHost.
 
-```jsx
+```
 http://web.wtctt2023.p7z.pw:8003/index.php?page=../../../../../../../../etc/passwd
 ```
 
@@ -49,8 +49,8 @@ Although we already know secret vhost, we can't access to `adm1n.chall3.wtctt202
 
 After editing hosts file, I go input to read source code of index.php for this domain.
 
-```jsx
-[http://web.wtctt2023.p7z.pw:8003/index.php?page=../../../../../../../../var/www/adm1n/index.php](http://web.wtctt2023.p7z.pw:8003/index.php?page=../../../../../../../../var/www/adm1n/index.php)
+```
+http://web.wtctt2023.p7z.pw:8003/index.php?page=../../../../../../../../var/www/adm1n/index.php
 ```
 
 ![Pasted image 20231219223017.png](Picture/Pasted_image_20231219223017.png)
