@@ -31,7 +31,7 @@ http://web.wtctt2023.p7z.pw:8003/index.php?page=../../../../../../../../etc/pass
 
 ### We have important information as follows:
 
-- This vulnerability only allows access. /etc/,/var/www,/tmp
+- This vulnerability only allows access to /etc/,/var/www,/tmp
 - There is a hidden vhost
 
 After a few minutes of searching I found  `/etc/nginx/conf.d/default.conf` is used to configure the default virtual host. So I input to page param for read this file
