@@ -168,11 +168,11 @@ That means if we try to use username as `_*🍜_*`, we will get results like thi
 The difficulty of this challenge is the length of the text in the object after the `store_session` and before the `load_session` must be related in order for our payload to work.
 
 <aside>
-💡 For `_*🍜_` ,*Although it appears to be 3 letters long, it is actually 6 letters long because `🍜` is a special character that the program reads as 4 letters.
+💡 For `_🍜_` ,*Although it appears to be 3 letters long, it is actually 6 letters long because `🍜` is a special character that the program reads as 4 letters.
 
 </aside>
 
-You will see that if we put `_*🍜__🍜__🍜__🍜__🍜__🍜__🍜__🍜__🍜_*` in serialize will be read as 48 characters and thus when unserialize after replace will cause `_*🍜_*` to be replaced with `chr(0) . '*' . chr(0)` which has 3 characters, and reading up to 48 characters makes it read all the way to the back 48 characters as well. In this case, null cannot be write near *, so I ask everyone to imagine.
+You will see that if we put `_🍜__🍜__🍜__🍜__🍜__🍜__🍜__🍜__🍜_` in serialize will be read as 48 characters and thus when unserialize after replace will cause `_🍜_` to be replaced with `chr(0) . '*' . chr(0)` which has 3 characters, and reading up to 48 characters makes it read all the way to the back 48 characters as well. In this case, null cannot be write near *, so I ask everyone to imagine.
 
 INPUT : 
 
