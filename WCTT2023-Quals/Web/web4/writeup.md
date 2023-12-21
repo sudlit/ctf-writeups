@@ -161,14 +161,14 @@ I had decided to rewrite the functions script to make it easier to edit the payl
 ?>
 ```
 
-That means if we try to use username as `_*🍜_*`, we will get results like this picture.
+That means if we try to use username as `_🍜_`, we will get results like this picture.
 
 ![Untitled](Picture/Untitled%201.png)
 
 The difficulty of this challenge is the length of the text in the object after the `store_session` and before the `load_session` must be related in order for our payload to work.
 
 <aside>
-💡 For `_🍜_` ,*Although it appears to be 3 letters long, it is actually 6 letters long because `🍜` is a special character that the program reads as 4 letters.
+💡 For `_🍜_` ,Although it appears to be 3 letters long, it is actually 6 letters long because `🍜` is a special character that the program reads as 4 letters.
 
 </aside>
 
