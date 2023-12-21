@@ -27,7 +27,7 @@ and I found vulnerability at `?page=` parameter which is LFI vuln so i tried to 
 http://web.wtctt2023.p7z.pw:8003/index.php?page=../../../../../../../../etc/passwd
 ```
 
-![Pasted image 20231219215723.png](Picture/Pasted image 20231219220132.png)
+![etc.png](Picture/etc.png)
 
 ### We have important information as follows:
 
