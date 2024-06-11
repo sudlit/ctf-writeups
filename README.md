@@ -3,7 +3,10 @@
 Repository for interesting things that I got from each ctf event.
 
 Some challenge are posted only as challenge because they cannot be solved T-T
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+## 2024
+* [AkasecCTF 2024](AkasecCTF2024)
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ## 2023
 * [ISITDTU CTF 2023](ISITDTU%20CTF%202023%20Quals)
 * [ångstromCTF 2023](ångstromCTF%202023)
