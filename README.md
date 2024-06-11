@@ -6,12 +6,12 @@ Some challenge are posted only as challenge because they cannot be solved T-T
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ## 2024
 * [AkasecCTF 2024](AkasecCTF2024)
-* [RTARF Senior 2023](RTARF-Senior-2023)
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ## 2023
 * [ISITDTU CTF 2023](ISITDTU%20CTF%202023%20Quals)
 * [ångstromCTF 2023](ångstromCTF%202023)
 * [ACSC2023-Quals](ACSC2023-Quals)
+* [RTARF Senior 2023](RTARF-Senior-2023)
 
 ## 2022
 * [Secplayground half-year-event-2022](secplayground-event)
