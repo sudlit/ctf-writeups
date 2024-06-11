@@ -1,4 +1,3 @@
-
 ## Solution  
 
 - [by carmaris](https://carmar.is/write-ups/proxy-for-life.html )
