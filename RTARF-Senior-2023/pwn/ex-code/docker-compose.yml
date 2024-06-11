@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+    pwn:
+        build: .
+        ports:
+            - '20005:8080'
+        stdin_open: true
+        volumes:
+            - ./flag:/flag
