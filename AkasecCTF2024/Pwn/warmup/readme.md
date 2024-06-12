@@ -53,7 +53,7 @@ log.info(hex(libc.address)) #0x7ffff7dab000
 | arch   | syscall NR | return | arg0                  | arg1 | arg2 |
 | ------ | ---------- | ------ | --------------------- | ---- | ---- |
 | x86_64 | rax        | rax    | rdi                   | rsi  | rdx  |
-|        | 0x3b       | 0x3b   | address of "/bin/sh"" | 0x0  | 0x0  |
+|        | 0x3b       | 0x3b   | address of "/bin/sh" | 0x0  | 0x0  |
 
 แล้วเราก็ใช้ข้อมูลนี้มาเขียน rop chain ครับแล้วก็ทำการส่งเข้าตัวแปร name จะได้ประมาณนี้
 
